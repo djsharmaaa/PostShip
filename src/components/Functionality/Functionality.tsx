@@ -1,3 +1,5 @@
+import React from 'react';
+
 import './Functionality.css';
 import {    Bleed,BlockStack,Box,Button,ButtonGroup,Card,InlineStack,Text,TextField,} from '@shopify/polaris';
 
