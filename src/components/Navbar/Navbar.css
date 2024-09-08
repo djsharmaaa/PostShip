@@ -122,3 +122,29 @@
     transition: 0.3s ease-in-out;
   }
 }
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .menu-icon {
+      display: block;
+  }
+  .items-link {
+      display: none;
+      flex-direction: column;
+      background-color: #fff;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      text-align: center;
+      padding: 20px;
+  }
+  .items-link.active {
+      display: flex;
+  }
+  .left-nav-links,
+  .right-nav-links {
+      display: block;
+  }
+}
