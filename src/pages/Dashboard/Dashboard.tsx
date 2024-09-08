@@ -1,8 +1,7 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
-import Functionality from "../../components/Functionality/Functionality";
 import PerformanceMetrics from "../../components/PerformanceMetrics/PerformanceMetrics";
-import './Dashboard.css';
+import Functionality from "../../components/Functionality/Functionality";
 
 const Dashboard: React.FC = () => {
     return (

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { MenuIcon} from '@shopify/polaris-icons';
 import { Icon } from '@shopify/polaris';
 
